@@ -8,7 +8,7 @@ public class BaseAdminPage : BasePage
 {
     public BaseAdminPage()
     {
-
+         
     }
     protected override void Page_PreLoad()
     {
