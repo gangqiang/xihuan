@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>752104c0-6918-45f9-85e9-874cb078e5d5</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：“images/userupload/goodsimage/20105931025903_2062_85*85.jpg”不是有效的虚拟路径。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：“images/userupload/goodsimage/20105931025903_2062_85*85.jpg”不是有效的虚拟路径。]
+
+[CustomException.CustomException: 未知异常：“images/userupload/goodsimage/20105931025903_2062_85*85.jpg”不是有效的虚拟路径。]
+</Trace>
+    <OccuredTime>2010-08-29 16:05:37</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>2e53c53b-95d1-468e-ba68-a99eb6976dba</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-29 16:06:47</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>45beab85-488d-44b3-a6e1-5cf8bf37c630</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-29 16:09:30</OccuredTime>
+  </Exception>
+</Exceptions>

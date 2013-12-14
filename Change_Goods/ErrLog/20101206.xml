@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>88683652-95f0-4e96-a121-0ecf1b188122</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:07:28</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>9a3dea45-77b5-4e74-a0a6-f9cd862ee448</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/change_goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:10:16</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>fe007f60-de73-4181-bf5e-c56aa19e3992</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/change_goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:11:04</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>ec499fa7-9850-455a-abd0-09342ceec512</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/change_goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:11:07</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>ab0d469e-6483-462b-b547-952cf241b947</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/change_goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:11:19</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>6b1d7139-cb90-4abb-9368-612be83f36df</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:11:36</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>50462b52-d00f-4a89-b499-a000b328f223</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：指定字符串与电子邮件地址所要求的形式不符。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+
+[CustomException.CustomException: 未知异常：指定字符串与电子邮件地址所要求的形式不符。]
+</Trace>
+    <OccuredTime>2010-12-06 13:13:13</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>d00d67c4-a3ed-42ac-854a-aa93dfa0ebb9</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/admin/sys_set.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：索引超出了数组界限。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+</Trace>
+    <OccuredTime>2010-12-06 13:19:00</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>9536f3b5-d426-4e42-88e1-54b6f96c00d9</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/admin/sys_set.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：索引超出了数组界限。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+</Trace>
+    <OccuredTime>2010-12-06 13:19:08</OccuredTime>
+  </Exception>
+</Exceptions>

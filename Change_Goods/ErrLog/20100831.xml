@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>a0f0b19f-eb8b-47a5-a78d-15644948ed8f</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-08-31 21:55:34</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>d7bfe181-b2bc-4549-8cef-146f0105aba4</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-08-31 21:56:00</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>0b585def-203f-49d2-88b6-1699d2eee333</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-08-31 22:01:00</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>8827dd02-4657-4f6d-bb0c-9904fc5b5124</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-08-31 22:05:00</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>1c777eaa-2fee-4574-8f8c-257e8a4e4281</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+</Trace>
+    <OccuredTime>2010-08-31 22:06:05</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>ec9e3376-e050-4758-8f01-3fe73fe02fa4</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+</Trace>
+    <OccuredTime>2010-08-31 22:06:34</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>f5af6039-4519-4b92-8f28-712fb6a1bed7</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+</Trace>
+    <OccuredTime>2010-08-31 22:12:45</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>67f7de59-0d47-4684-a8f8-1817b9b83808</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+
+[CustomException.CustomException: 未知异常：目标文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”是目录，不是文件。]
+</Trace>
+    <OccuredTime>2010-08-31 22:13:10</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>8bdc1c89-19e5-4447-83fa-2ac5ce40c7f3</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:13:45</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>00a530e1-74b7-47bc-9740-adec39f82bea</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:13:53</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>abb02996-4d20-4720-a8e5-aca1a1bbfb2a</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:15:53</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>ea2d66ea-f05c-4228-9fe2-cc61588bc7fd</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:30:03</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>1ce53c38-5b24-4560-ac42-7f620f51f94e</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:32:47</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>b3146111-488e-4791-bd40-8b175f1b8f05</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:33:59</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>01a4c084-4dfb-491f-a467-0460513e1d7a</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-08-31 22:38:47</OccuredTime>
+  </Exception>
+</Exceptions>

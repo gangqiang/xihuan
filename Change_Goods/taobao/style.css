@@ -1,0 +1,282 @@
+UL {
+	LIST-STYLE-TYPE: none
+}
+.mini {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; FONT-FAMILY: Verdana, sans-serif
+}
+H1 {
+	FONT-SIZE: 120%; MARGIN: 0px; COLOR: #758fa6; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1.pageTitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 120%; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pageTitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 120%; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1.pageTitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 12px; PADDING-TOP: 10px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: #758fa6; PADDING-TOP: 8px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H2.subtitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0em; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3.majorHeader {
+	FONT-SIZE: 80%; COLOR: #669966; FONT-FAMILY: Segoe, Verdana
+}
+H3.minorHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 72%; COLOR: #666666; FONT-FAMILY: Verdana
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 65%; MARGIN: 10px 0px 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bodyText {
+	FONT-SIZE: 100%; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P A {
+	FONT-SIZE: 100%
+}
+.bodyText A {
+	FONT-SIZE: 100%
+}
+LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.25em; MARGIN: 0px; PADDING-TOP: 0px
+}
+.date {
+	MARGIN-TOP: 9px; FONT-SIZE: 65%; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.datePipe {
+	COLOR: #cccccc
+}
+.byline {
+	FONT-SIZE: 65%; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.ancestorLinks {
+	MARGIN-TOP: 12px; FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.ancestorLinks A:visited {
+	COLOR: #6e4987
+}
+.ancestorLinks A:hover {
+	COLOR: #006699
+}
+.ancestorLabel {
+	COLOR: #666666
+}
+.topOfPage {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A.topOfPage:visited {
+	COLOR: #6e4987
+}
+A.topOfPage:hover {
+	COLOR: #006699
+}
+A.bdash {
+	COLOR: #000000; BORDER-BOTTOM: #99cc00 1px dotted; TEXT-DECORATION: none
+}
+A.bdash:visited {
+	COLOR: #000000; BORDER-BOTTOM: #99cc00 1px dotted; TEXT-DECORATION: none
+}
+A.bdash:hover {
+	COLOR: #000000; BORDER-BOTTOM: #99cc00 1px solid; TEXT-DECORATION: none
+}
+A.bdash2 {
+	COLOR: #666; BORDER-BOTTOM: #99cc00 1px dotted; TEXT-DECORATION: none
+}
+A.bdash2:visited {
+	COLOR: #666; BORDER-BOTTOM: #99cc00 1px dotted; TEXT-DECORATION: none
+}
+A.bdash2:hover {
+	COLOR: #000; BORDER-BOTTOM: #99cc00 1px solid; TEXT-DECORATION: none
+}
+#intro_background {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/intro_bg.gif) no-repeat; PADDING-BOTTOM: 10px; MARGIN: 0px; WIDTH: 420px; PADDING-TOP: 10px; HEIGHT: 60px
+}
+#intro {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 10px
+}
+.intro {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 10px
+}
+#post {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 10px
+}
+#post A {
+	COLOR: #0078b4; BORDER-BOTTOM: #0078b4 1px dotted; TEXT-DECORATION: none
+}
+#post A:visited {
+	COLOR: #0078b4; BORDER-BOTTOM: #0078b4 1px dotted; TEXT-DECORATION: none
+}
+#post A:hover {
+	COLOR: #0078b4; BORDER-BOTTOM: #0078b4 1px solid; TEXT-DECORATION: none
+}
+A.post {
+	COLOR: #0000ff; BORDER-BOTTOM: #0000ff 1px dotted; TEXT-DECORATION: none
+}
+A.post:visited {
+	COLOR: #0000ff; BORDER-BOTTOM: #0000ff 1px dotted; TEXT-DECORATION: none
+}
+A.post:hover {
+	COLOR: #0000ff; BORDER-BOTTOM: #0000ff 1px solid; TEXT-DECORATION: none
+}
+A.grey {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #999999; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none
+}
+A.grey:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #999999; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none
+}
+A.grey:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #999999; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none
+}
+.grey {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #999999; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none
+}
+.r4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; COLOR: #cc3300; TEXT-DECORATION: none
+}
+#r2 {
+	BORDER-RIGHT: #acd0e0 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #acd0e0 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; BORDER-LEFT: #acd0e0 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #acd0e0 1px solid
+}
+#r2bak2 {
+	BORDER-RIGHT: #d3e2e9 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d3e2e9 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; BORDER-LEFT: #d3e2e9 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #d3e2e9 1px solid
+}
+#r2bak {
+	BORDER-RIGHT: #0078b4 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #0078b4 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; BORDER-LEFT: #0078b4 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #0078b4 1px solid
+}
+#g {
+	PADDING-TOP: 10px
+}
+DIV#r {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; WIDTH: 200px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+DIV#rleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; WIDTH: 150px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.foot {
+	FONT-SIZE: 8pt; COLOR: #003196; TEXT-DECORATION: none
+}
+A.foot {
+	FONT-SIZE: 8pt; COLOR: #003196; TEXT-DECORATION: none
+}
+A.foot:visited {
+	COLOR: #003196
+}
+A.foot:hover {
+	COLOR: #003196; BORDER-BOTTOM: #99cc00 2px dotted
+}
+.dot {
+	FONT-SIZE: 8pt; COLOR: #003196; TEXT-DECORATION: none
+}
+A.dot {
+	FONT-SIZE: 8pt; COLOR: #003196; TEXT-DECORATION: none
+}
+A.dot:visited {
+	COLOR: #003196
+}
+A.dot:hover {
+	COLOR: #003196; BORDER-BOTTOM: #99cc00 2px dotted
+}
+A.dot1 {
+	FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+A.dot1:visited {
+	COLOR: #538adc
+}
+A.dot1:hover {
+	COLOR: #538adc; BORDER-BOTTOM: #99cc00 2px dotted
+}
+A.dot2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #0078b4; TEXT-DECORATION: none
+}
+A.dot2:visited {
+	COLOR: #0078b4
+}
+A.dot2:hover {
+	COLOR: #0078b4; BORDER-BOTTOM: #0078b4 2px dotted
+}
+A.dot3 {
+	FONT-SIZE: 8pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.dot3:visited {
+	COLOR: #000000
+}
+A.dot3:hover {
+	COLOR: #000000; BORDER-BOTTOM: #99cc00 2px dotted
+}
+A.dot4 {
+	FONT-SIZE: 10pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.dot4:visited {
+	COLOR: #000000
+}
+A.dot4:hover {
+	COLOR: #000000; BORDER-BOTTOM: #99cc00 2px dotted
+}
+.pages {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; CURSOR: default; COLOR: #000000; PADDING-TOP: 3px; FONT-FAMILY: Tahoma, Verdana
+}
+.pages .count {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .number {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .arrow {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .count {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; BORDER-RIGHT-STYLE: none
+}
+.pages .number {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; PADDING-BOTTOM: 1px; PADDING-TOP: 2px
+}
+.pages .number A {
+	FONT-SIZE: 12px
+}
+.pages .number SPAN {
+	FONT-SIZE: 12px
+}
+.pages .number SPAN {
+	MARGIN: 0px 3px; COLOR: #999999
+}
+.pages .number A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.pages .number A:hover {
+	COLOR: #0000ff
+}
+.pages SELECT {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: middle; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana
+}
+.pages .input INPUT.ititle {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.itext {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.icount {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.ititle {
+	WIDTH: 100px; FONT-FAMILY: Verdana; BORDER-RIGHT-STYLE: none; TEXT-ALIGN: right
+}
+.pages .input INPUT.itext {
+	WIDTH: 30px; COLOR: #000000; FONT-FAMILY: Verdana; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: right
+}
+.pages .input INPUT.icount {
+	WIDTH: 50px; FONT-FAMILY: Verdana; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left
+}
+.pages .input INPUT.ibutton {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-WEIGHT: bold; MARGIN-LEFT: 2px; BORDER-LEFT: #666666 1px solid; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: #999999
+}

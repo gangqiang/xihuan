@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>3dc5149d-ffe1-47ca-ae8e-589bef10e391</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：关键字 'set' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-22 11:02:31</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>608a76cc-c9b0-437f-9615-4b2ed68d2f16</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/change_goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：关键字 'set' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-22 11:06:40</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>0ced3165-9d0e-4508-8de2-9655da3f5bb9</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：关键字 'set' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：关键字 'set' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-22 15:43:46</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>69bbceae-4fee-4f92-a9e2-12eeae4bb42a</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/Admin/Sys_Generate.aspx?userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：将截断字符串或二进制数据。
+语句已终止。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+</Trace>
+    <OccuredTime>2010-12-22 16:00:38</OccuredTime>
+  </Exception>
+</Exceptions>

@@ -1,0 +1,6 @@
+#messagebox_table {
+	BORDER-RIGHT: #999 3px solid; BORDER-TOP: #999 3px solid; BORDER-LEFT: #999 3px solid; BORDER-BOTTOM: #999 3px solid; BACKGROUND-COLOR: #fff
+}
+#messagebox_title_table {
+	FONT-WEIGHT: bold; FONT-SIZE: small; COLOR: #ffffff
+}

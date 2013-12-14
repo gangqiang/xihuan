@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>1d8acb54-1e0b-425f-8e21-fb6c0de5bb8a</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：ExecuteNonQuery: CommandText 属性尚未初始化</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+</Trace>
+    <OccuredTime>2010-09-30 15:41:27</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>6cc37453-b7a2-433b-8729-4662951d4877</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/uploadgoodspic.aspx?action=addNewPic&amp;id=2365&amp;gid=2365&amp;gname=换品测试哦啦&amp;src=&amp;desc=&amp;isdefault=0</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\goodsimage\2010\9\30\2365_20100930034543.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\goodsimage\2010\9\30\2365_20100930034543.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\goodsimage\2010\9\30\2365_20100930034543.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-09-30 15:45:43</OccuredTime>
+  </Exception>
+</Exceptions>

@@ -1,0 +1,396 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html;charset=GB2312" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="keywords" content="同城交换，物品交换,闲置物品交换,,同校交换,二手交换,交换年货" /><meta name="description" content="喜换网是中国最专业的物品交换平台,在这里您可以进行同城物品交换,同校物品交换,二手物品交换,闲置物品交换,年货交换,易物交友.详细的换品分类,最新最全面丰富的换品信息尽在喜换网" /><meta name="Robots" content="All" /><meta name="GOOGLEBOT" content="All" /><meta name="verify-v1" content="2WI+gttAG3Vgo7KoaYDT/7Fb1mXT6UGwvFpYYrVkUkU=" /><meta name="y_key" content="f00a394915068b18" /><link type="text/css" href="http://localhost:2419/Change_Goods/App_Themes/Default/style.css" rel="stylesheet" /><link type="text/css" href="http://localhost:2419/Change_Goods/Js/ymPromot/skin/qq/ymPrompt.css" rel="stylesheet" /><script type="text/javascript" language="javascript" src="http://localhost:2419/Change_Goods/Js/ymPromot/ymPrompt.js"></script><script type="text/javascript" language="javascript" src="http://localhost:2419/Change_Goods/Js/common.js"></script><script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><link rel="shortcut icon'" href="http://localhost:2419/Change_Goods/images/favicon.ico" /><title>
+	喜换网功能改进-物品交换,闲置物品互换,二手物品调剂——喜换网专业的物品交换平台
+</title></head>
+<body>
+    
+<div>
+
+</div>
+
+    <div>
+        
+
+<script type="text/javascript">
+function doSearch()
+{
+    var type=$("#search_type").val();
+    var key= $("#keyword").val();
+    var typeid=$("#Top1_ddlGoodType").val();
+    if(type=="0")
+    {
+        window.location="http://localhost:2419/Change_Goods/searchlist.aspx?keyword="+escape(key)+"&typeid="+typeid;
+    }
+    if(type=="1")
+    {
+       window.location="http://localhost:2419/Change_Goods/userlist.aspx?keyword="+escape(key); 
+    }
+}
+</script>
+
+<div id="Head">
+    <div class="logo" style="float: left; margin: 5px 10px 5px 10px;">
+        <a href="http://localhost:2419/Change_Goods/" title="喜换网-物品交换,闲置物品互换,二手物品调剂">
+            <img src="http://localhost:2419/Change_Goods/images/logo.png" title="喜换网-物品交换,闲置物品互换,二手物品调剂" /></a>
+        <a href="###" class="legend"><span title="喜换网-换我喜欢">换我喜欢</span></a><br />
+        <span id="needlogin">您好，欢迎来到喜换网！<a href="http://localhost:2419/Change_Goods/register.aspx"
+            title="免费注册成为喜换网会员">[免费注册]</a> <a href="http://localhost:2419/Change_Goods/login.aspx" title="登录喜换网">
+                [登录]</a></span> <span id="welcomemember"><span id="lblUserName"></span></span>
+    </div>
+    <div style="float: right; margin: 20px 60px 5px 10px;">
+        <div>
+            <select name="search_type" id="search_type">
+                <option value="0" selected="selected">搜索换品</option>
+                <option value="1">搜索换客</option>
+            </select>
+            <input type="text" name="q" id="keyword" style="height: 17px; width: 180px;" class="keyword"
+                value="" />
+            <select name="Top1$ddlGoodType" id="Top1_ddlGoodType">
+	<option value="">不限</option>
+	<option value="4">移动/联通/小灵通充值卡</option>
+	<option value="5">网游虚拟物品 </option>
+	<option value="6">手机/NOKIA/三星/MOTO</option>
+	<option value="7">笔记本/ThinkPad/DELL</option>
+	<option value="8">电脑硬件/LCD/台式整机/网络</option>
+	<option value="9">数码相机/摄像机/图形冲印</option>
+	<option value="10">MP3/MP4/MP5/iPod/录音笔</option>
+	<option value="11">闪存/U盘/记忆棒/移动存储</option>
+	<option value="12">手机配件/相机配件/数码配件</option>
+	<option value="13">办公设备/文具/耗材</option>
+	<option value="14">家用电器/影音HiFi</option>
+	<option value="15">美容护肤/美体/精油</option>
+	<option value="16">彩妆/香水/美发/工具</option>
+	<option value="17">个人护理/保健/按摩器械</option>
+	<option value="18">女装/外套/连衣裙/雪纺衫</option>
+	<option value="19">女鞋/单鞋/达芙妮/玖熙</option>
+	<option value="20">女士内衣/男士内衣/家居服</option>
+	<option value="21">男装/开衫/卫衣/牛仔裤</option>
+	<option value="22">女包/男包/钱夹卡包</option>
+	<option value="23">皮带/帽子/服饰配件</option>
+	<option value="24">运动服/运动外套</option>
+	<option value="25">运动鞋/NIKE/adidas</option>
+	<option value="26">童装/童鞋/哈衣/孕妇装</option>
+	<option value="27">品牌手表/流行手表</option>
+	<option value="28">饰品/流行首饰/时尚饰品</option>
+	<option value="29">珠宝/钻石/翡翠/黄金</option>
+	<option value="30">居家日用/厨房餐饮/卫浴洗浴</option>
+	<option value="31">床上用品/靠垫/窗帘/布艺</option>
+	<option value="32">家具/家具定制/宜家</option>
+	<option value="33">奶粉/尿片/母婴用品</option>
+	<option value="34">益智玩具/童车/童床/书包</option>
+	<option value="35">装修/灯具/五金/安防</option>
+	<option value="36">食品/茶叶/零食/特产</option>
+	<option value="37">保健品/安利/减肥/抗衰老</option>
+	<option value="38">汽车/配件/改装/摩托/自行车</option>
+	<option value="39">运动/瑜伽/健身/羽毛球</option>
+	<option value="40">书籍/计算机/经管/文艺</option>
+	<option value="41">乐器/音乐/影视/明星/动画片</option>
+	<option value="42">户外/登山/野营/涉水</option>
+	<option value="43">宠物/食品用品清洁/鲜花蛋糕</option>
+	<option value="44">太阳镜/Zippo/瑞士军刀</option>
+	<option value="45">古董/邮币/字画/收藏</option>
+	<option value="46">玩具/模型/娃娃/人偶</option>
+	<option value="47">时尚家饰/工艺品/十字绣</option>
+	<option value="48">网络服务/电脑软件</option>
+	<option value="49">演出/旅游/吃喝玩乐折扣券</option>
+	<option value="52">服务/技能/咨询/交换友情链接 </option>
+	<option value="53">宠物/狗/猫</option>
+	<option value="54">宠物食品/狗粮/猫粮</option>
+	<option value="55">宠物用品/笼子/宠物衣服</option>
+	<option value="56">彩票/股票/债券</option>
+
+</select>
+            <input type="button" value="搜  索" id="btnSearch" onclick="doSearch();" />
+            <a href="http://localhost:2419/Change_Goods/searchlist.aspx">高级搜索</a> <a href="http://localhost:2419/Change_Goods/news/2009/6/3/newsshow36.html"
+                target="_blank">使用帮助</a>
+        </div>
+    </div>
+    <div class="nav-box box" style="clear: both; margin-top: 5px; margin-left: 3px; width: 98%;">
+        <span class="rc-tp"><span></span></span><span style="font-size: 0px; z-index: 99;
+            background: url(images/hotnew.gif) no-repeat 100% 0px; left: 460px; overflow: hidden;
+            width: 19px; line-height: 0px; position: absolute; top: -10px; height: 23px">热 </span>
+        <div class="bd">
+            <dl class="chanel">
+                <dd>
+                    <ul>
+                        <li id="MenuHome"><a title="回到喜换网首页" href="http://localhost:2419/Change_Goods/" target="_top">
+                            <span>首页</span></a> </li>
+                        <li id="MenuMall"><a title="喜换网-同城交换频道" href="http://localhost:2419/Change_Goods/citychange.html"
+                            target="_top"><span>同城交换</span></a> </li>
+                        <li id="MenuGlobal"><a title="喜换网-同校交换频道" href="http://localhost:2419/Change_Goods/schoolchange.html"
+                            target="_top"><span>同校交换</span></a> </li>
+                        <li id="MenuSecondHand"><a href="http://localhost:2419/Change_Goods/taobao.htm"
+                            target="_blank"><span>淘宝返利</span></a> </li>
+                        <li id="MenuGift"><a href="http://localhost:2419/Change_Goods/searchlist.aspx" target="_top">
+                            <span>全部交换</span></a> </li>
+                        <li id="MenuSale"><a href="http://localhost:2419/Change_Goods/userlist.aspx" target="_top"><span>
+                            换客秀</span></a> </li>
+                    </ul>
+                </dd>
+            </dl>
+            <!--热门城市-->
+            <dl class="news">
+                <dt>城市</dt>
+                <dd>
+                    <ul>
+                        <li id="MenuMan"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=110000"
+                            target="_top"><span>北京</span></a> </li>
+                        <li id="MenuLady"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=310000"
+                            target="_top"><span>上海</span></a></li>
+                        <li id="MenuBaby"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=120000"
+                            target="_top"><span>天津</span></a> </li>
+                        <li id="MenuFashion"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=440300"
+                            target="_top"><span>深圳</span></a> </li>
+                        <li id="MenuBeauty"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=440100"
+                            target="_top"><span>广州</span></a> </li>
+                        <li id="MenuShishang"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=420100"
+                            target="_top"><span>武汉</span></a> </li>
+                        <li id="Li2"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=320500" target="_top">
+                            <span>苏州</span></a> </li>
+                        <li id="MenuDigital"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=210200"
+                            target="_top"><span>大连</span></a> </li>
+                        <li id="MenuSport"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=410100"
+                            target="_top"><span>郑州</span></a> </li>
+                        <li id="Li3"><a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=370200" target="_top">
+                            <span>青岛</span></a> </li>
+                        <li id="Li1"><a href="http://localhost:2419/Change_Goods/citychange.html" target="_top"><span>
+                            >更多</span></a> </li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!-- nav-box end -->
+</div>
+
+        <div class="toplinebar">
+        </div>
+        <div class="cakeheadlink">
+            当前位置：<a href="http://localhost:2419/Change_Goods/">首页</a>>><span id="lblType">站内公告</span>>><span id="lblTitle2">喜换网功能改进</span>
+        </div>
+        <div class="main">
+            <div class="mainleft">
+                <table style="width: 85%; margin-top: 10px; margin-bottom: 10px;">
+                    <tr>
+                        <td style="height: 30px">
+                            <h2>
+                                <span id="lblTitle">喜换网功能改进</span>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 25px; text-align: center;">
+                            <span class="graytext">
+                                <span id="lblTime">2009-07-02 11:56:38</span></span> 字体：【<a href="javascript:void(0);"
+                                    onclick="SetSize(16);">大</a> <a href="javascript:void(0);" onclick="SetSize(14);">中</a>
+                            <a href="javascript:void(0);" onclick="SetSize(12);">小</a>】 浏览：<span class="highlight"
+                                id="lblViewCount"></span>&nbsp;次
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="tdContent" style="font-size: 14px; text-align: left;">
+                            &nbsp;&nbsp;
+                            <span id="lblContent"><p>&nbsp;&nbsp; 大家好：</p>
+<p>&nbsp;&nbsp; 为了给大家提供更好，更方便，更稳定的服务，喜换网于7 月 2日进行了功能改进和</p>
+<p>&nbsp;错误修改。</p>
+<p>&nbsp;&nbsp;&nbsp; 本次功能改进如下：</p>
+<p>&nbsp; 1. 注册时换客名的即时检测，支持中文换客名了 ^_^。</p>
+<p>&nbsp; 2. 找回密码的功能改进，增加判读和邮件内容的改进。</p>
+<p>&nbsp;&nbsp;3. 管理中心收藏的换品，删除不了的错误改进。</p>
+<p>&nbsp;&nbsp; 4.被管理员 锁定的换客账号不再在换客秀里列出，同时屏蔽个人换铺功能。</p>
+<p>&nbsp;&nbsp; 以上是本次的功能改进内容，如果您有什么好的建议，可以联系我们：</p>
+<p>&nbsp;&nbsp;&nbsp; 联系电话：15093134316&nbsp;</p>
+<p style="text-align: left">&nbsp;</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp; 我们的客服邮箱：<a href="mailto:xihuan@tsc8.com"><font color="#3366cc">xihuan@tsc8.com</font></a></p>
+<p style="text-align: left">&nbsp;</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp; 您可以通过QQ联系我们：</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 工作日时间：418921050，86386740。</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 非工作时间：86386740&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;您也可以发站内信给我们，换客名&quot;喜换网&quot;。</p>
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff6600">喜换网，换我喜欢。我们一直用心在做....</span></p>
+<p style="text-align: left">&nbsp;</p>
+<p style="text-align: left"><span style="color: #ff6600">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09.7.2</span></p>
+<p style="text-align: left">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; height: 30px; background-color: #fffeed;">
+                            <br />
+                            上一篇：<span id="lblPre"><a title="中国99%白领要破产[转载]" href="http://localhost:2419/Change_Goods/news/2009/6/15/newsshow46.html" target="_self">中国99%白领要破产[转载]</a></span>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; 下一篇：<span id="lblNext"><a title="杭州一甲型流感病人死亡 卫生厅称并非死于H1N1" href="http://news.163.com/09/0702/09/5D75HRV7000120GU.html">杭州一甲型流感病人死亡 卫生厅称并非死于H1N1</a></span>
+                        </td>
+                    </tr>
+                </table>
+                <table style="width: 85%; margin-top: 10px; margin-bottom: 10px;">
+                    <tr>
+                        <td>
+                            <span id="YAD2"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="ritem">
+                浏览排行</div>
+            <div class="mainright">
+                <div class="content">
+                    <ul>
+                        
+                                <li style="width: 170px; text-align: left;"><a title="喜换网简介"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow11.html">
+                                    喜换网简介
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="喜换网使用帮助"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/3/newsshow36.html">
+                                    喜换网使用帮助
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="什么是换客？"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow12.html">
+                                    什么是换客？
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="联系我们"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/4/newsshow45.html">
+                                    联系我们
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="免费加盟我们"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/3/newsshow38.html">
+                                    免费加盟我们
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="合作伙伴"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow3.html">
+                                    合作伙伴
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="广告服务"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow2.html">
+                                    广告服务
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="交换安全"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/2/newsshow35.html">
+                                    交换安全
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="版权说明"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow4.html">
+                                    版权说明
+                                </a></li>
+                            
+                                <li style="width: 170px; text-align: left;"><a title="喜换网,换我喜欢"
+                                    target="_self"
+                                    href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow32.html">
+                                    喜换网,换我喜欢
+                                </a></li>
+                            
+                        <li><span id="YAD"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="hidId" id="hidId" value="47" />
+    
+
+    <script type="text/javascript">
+        LoadNewsCount($("#hidId").val());
+        function SetSize(fixsize) {
+            $("#tdContent").css("fontSize", fixsize + "px");
+        }
+        $("#YAD2").html("<iframe src=\"http://u.1133.cc/showpage.php?pid=141729\" MARGINWIDTH=0 MARGINHEIGHT=0  HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no HEIGHT=100 WIDTH=730></iframe>");
+        $("#YAD").html("<iframe src=\"http://u.1133.cc/showpage.php?pid=142220\" MARGINWIDTH=0 MARGINHEIGHT=0  HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no HEIGHT=250 WIDTH=160></iframe>");
+    </script>
+
+    <script type="text/javascript" src="http://localhost:2419/Change_Goods/Js/scrolltopcontrol.js"></script>
+
+    
+<div id="footer">
+    <ul class="foot-nav">
+        <li><a title="喜换网-" href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow11.html"
+            target="_blank">关于喜换</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow2.html" target="_blank">
+            广告服务</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow3.html" target="_blank">
+            合作伙伴</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/6/3/newsshow36.html" target="_blank">
+            帮助中心</a> </li>
+        <li><a style="color: #ff5500" href="http://localhost:2419/Change_Goods/news/2009/6/3/newsshow38.html"
+            target="_blank">加盟我们</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods//news/2009/6/4/newsshow45.html" target="_blank">
+            联系我们</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/sitemaps.htm" target="_blank">网站地图</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/searchlist.aspx">热门换品</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/5/31/newsshow4.html" target="_blank">
+            版权说明</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow12.html" target="_blank">
+            关于换客</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/6/1/newsshow11.html" target="_blank">
+            开放平台</a> </li>
+        <li><a href="http://localhost:2419/Change_Goods/news/2009/6/2/newsshow35.html" target="_blank">
+            交换安全</a> </li>
+    </ul>
+    <div class="ali-group">
+        换客网络联盟：<a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=110000">北京换客</a>
+        | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=310000">上海换客</a>
+        | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=320500">苏州换客</a> | <a
+            href="http://localhost:2419/Change_Goods/searchlist.aspx?city=410100">郑州换客</a> | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=440100">
+                广东换客</a> | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=370200">青岛换客</a>
+        | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?province=500000">重庆换客</a>
+        | <a href="http://localhost:2419/Change_Goods/searchlist.aspx?city=440300">深圳换客</a> | <a
+            href="http://localhost:2419/Change_Goods/searchlist.aspx?province=410000&city=411300">南阳换客</a>
+    </div>
+    <div>
+        <a href="http://www.tsc8.com">
+            <img style="float: left; border: 0px;" title="喜换网,物品交换,闲置物品交换,二手物品调剂" src="http://localhost:2419/Change_Goods/images/areyouchange.jpg" />
+        </a>
+        <div style="float: right">
+            <a href="http://www.tsc8.com">
+                <img height="53" src="http://localhost:2419/Change_Goods/images/jingjing.gif" width="53"
+                    border="0" />
+            </a><a href="http://www.tsc8.com">
+                <img height="53" src="http://localhost:2419/Change_Goods/images/chacha.gif" width="53" border="0" />
+            </a>
+        </div>
+        Copyright 2008-2011, 版权所有&copy;TSC8.COM&nbsp;&nbsp;换客交流QQ群：26282365,17848131,32023365<br />
+        <a href="http://www.miibeian.gov.cn/" target="_blank">ICP证：[豫ICP备08100665号] </a>
+
+        <script language="javascript" type="text/javascript" src="http://js.users.51.la/2751535.js"></script>
+
+        <noscript>
+            <a href="http://www.51.la/?2751535" target="_blank">
+                <img title="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2751535.asp"
+                    style="border: none" /></a></noscript>
+        <a href="http://www.tsc8.com/freesubmit.htm" target="_blank" title="网站推广">网站推广</a><br />
+        <a href="http://www.tsc8.com" title="同城交换,同校交换,二手交换,交换年货,专业的物品交换平台,友情链接交换">同城交换,同校交换,二手交换,交换年货,专业的物品交换平台,友情链接交换</a>
+        <a href="###" id="updatetime">。</a>
+    </div>
+ <script type="text/javascript">LoadLoginInfo(false);</script> 
+</div>
+
+
+    <script src="http://u.1133.cc/showpage.php?pid=128913&show_t=2" language="javascript"></script>
+
+</body>
+</html>

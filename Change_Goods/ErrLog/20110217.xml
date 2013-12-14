@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>3646d3c1-0f2f-4c08-8640-26268473d2c7</GuidNo>
+    <CurrentUserInfo>http://localhost:2419/Change_Goods/Admin/Sys_Generate.aspx?userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+</Trace>
+    <OccuredTime>2011-02-17 15:09:53</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>3c15c775-145c-43c2-a2ae-7d084c1e2469</GuidNo>
+    <CurrentUserInfo>http://localhost:2419/Change_Goods/Admin/Sys_Generate.aspx?userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：将截断字符串或二进制数据。
+语句已终止。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+</Trace>
+    <OccuredTime>2011-02-17 15:10:53</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>19ca0fd0-7403-48db-a294-a9595cb880a4</GuidNo>
+    <CurrentUserInfo>http://localhost:2419/Change_Goods/Admin/Sys_Generate.aspx?userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：将截断字符串或二进制数据。
+语句已终止。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+</Trace>
+    <OccuredTime>2011-02-17 15:10:57</OccuredTime>
+  </Exception>
+</Exceptions>

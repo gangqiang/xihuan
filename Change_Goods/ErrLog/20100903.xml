@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>1e8f92bb-b9c6-41d6-82a8-22b371ef290c</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：GDI+ 中发生一般性错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+
+[CustomException.CustomException: 未知异常：GDI+ 中发生一般性错误。]
+</Trace>
+    <OccuredTime>2010-09-03 22:26:02</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>854b26b7-455d-4156-9a3f-c6704a1be558</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-09-03 22:44:22</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>f61474c3-de88-4a25-ae2c-d0af78054b1c</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-09-03 22:44:31</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>99643911-cbc0-4735-ae22-2c8eaca09b2c</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”的一部分。]
+</Trace>
+    <OccuredTime>2010-09-03 22:46:26</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>a8d99e2a-c8f2-4588-8ec2-9d2eaf626cdc</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\34_20090407025543.jpg”正由另一进程使用，因此该进程无法访问该文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\34_20090407025543.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\34_20090407025543.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+</Trace>
+    <OccuredTime>2010-09-03 23:17:52</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>c46beced-f0a3-4801-a8c9-7a2bd92d88c7</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+</Trace>
+    <OccuredTime>2010-09-03 23:19:24</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>2c5e5a27-aad9-4b69-b8d9-0ba912cebf50</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+</Trace>
+    <OccuredTime>2010-09-03 23:19:29</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>38868564-b5fd-4918-94c7-588a5c123705</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+</Trace>
+    <OccuredTime>2010-09-03 23:20:10</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>622e629c-10a2-4433-8df3-19d7533b76df</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：ExecuteNonQuery: CommandText 属性尚未初始化</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+</Trace>
+    <OccuredTime>2010-09-03 23:20:42</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>e79d8639-ec2f-4906-89da-b1d8bc727901</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：ExecuteNonQuery: CommandText 属性尚未初始化</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+</Trace>
+    <OccuredTime>2010-09-03 23:21:18</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>14af5bab-5675-4702-b5b9-f4c108b68963</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：ExecuteNonQuery: CommandText 属性尚未初始化</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+</Trace>
+    <OccuredTime>2010-09-03 23:21:54</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>79f1c50b-44fc-42f7-8125-9ac279a3406f</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：ExecuteNonQuery: CommandText 属性尚未初始化</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+
+[CustomException.CustomException: 未知异常：ExecuteNonQuery: CommandText 属性尚未初始化]
+</Trace>
+    <OccuredTime>2010-09-03 23:24:08</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>31800aac-478a-434d-83b0-45c2f5b5fb7f</GuidNo>
+    <CurrentUserInfo>http://localhost:2293/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+
+[CustomException.CustomException: 未知异常：文件“F:\Change_Goods\Change_Goods\images\userupload\goodsimage\2009\4\7\33_20090407025425.jpg”正由另一进程使用，因此该进程无法访问该文件。]
+</Trace>
+    <OccuredTime>2010-09-03 23:30:39</OccuredTime>
+  </Exception>
+</Exceptions>

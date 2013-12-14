@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>4469b112-d626-4bb1-b79d-b2bb94371f1e</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：'&lt;' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-09 14:36:25</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>1225222a-ac08-4278-a933-1fbe44a52167</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：'&lt;' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-09 14:38:45</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>471696af-b08c-418d-ae4e-bb39a0ba12a3</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：'&lt;' 附近有语法错误。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+
+[CustomException.CustomException: 未知异常：'&lt;' 附近有语法错误。]
+</Trace>
+    <OccuredTime>2010-12-09 14:38:49</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>4239a7a3-bd8b-4ad0-92f5-1d2d773efc0e</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:45:15</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>005f28d0-a5a5-43b2-a054-54e121664587</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:46:14</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>e54ca5cc-0c9a-455d-8ef6-574f132be1ea</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:46:48</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>4066cecf-8674-4616-a185-3797f2b24ec2</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:47:54</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>7b3d74b0-f495-45dc-b902-a7cf4888d519</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:48:36</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>d4f02139-0027-42fe-a0a4-10421f0aa5dd</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/dealgoodsimage.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+
+[CustomException.CustomException: 未知异常：未能找到路径“E:\Change_Goods\Change_Goods\images\userupload\headimage\2009\4\14\headimage\2009\4\14\20093114113158_15.gif”的一部分。]
+</Trace>
+    <OccuredTime>2010-12-09 14:52:16</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>112c06aa-1377-42f8-ac49-a5437996b1fe</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/membermanageindex.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：将截断字符串或二进制数据。
+语句已终止。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+</Trace>
+    <OccuredTime>2010-12-09 17:16:51</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>9dc98817-3070-4ba7-a310-dfd914f195a1</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/membermanageindex.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：将截断字符串或二进制数据。
+语句已终止。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+
+[CustomException.CustomException: 未知异常：将截断字符串或二进制数据。
+语句已终止。]
+</Trace>
+    <OccuredTime>2010-12-09 17:20:20</OccuredTime>
+  </Exception>
+</Exceptions>

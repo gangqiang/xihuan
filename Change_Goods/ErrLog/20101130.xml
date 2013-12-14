@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>fd19ced6-adeb-4392-9e7f-e92ed340a2ce</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/default.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。]
+
+[CustomException.CustomException: 未知异常：列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。
+列名 'IsChecked' 无效。]
+</Trace>
+    <OccuredTime>2010-11-30 09:05:44</OccuredTime>
+  </Exception>
+</Exceptions>

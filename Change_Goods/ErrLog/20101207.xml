@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>4637a28d-d74f-43ec-95c3-41e1ae41dd23</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/default.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：索引超出了数组界限。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+</Trace>
+    <OccuredTime>2010-12-07 08:42:45</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>3a4adbd7-d004-461f-93ed-d414a9a5ca32</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/admin/Sys_Generate.aspx?username=lybwgq&amp;userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：为 showdetail.aspx 执行子请求时出错。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：为 showdetail.aspx 执行子请求时出错。]
+
+[CustomException.CustomException: 未知异常：为 showdetail.aspx 执行子请求时出错。]
+
+[CustomException.CustomException: 未知异常：为 showdetail.aspx 执行子请求时出错。]
+</Trace>
+    <OccuredTime>2010-12-07 10:35:43</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>aebc954d-ccfa-484b-a18b-adbd2be525fb</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/admin/Sys_Generate.aspx?userpass=lybwgq8486</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+
+[CustomException.CustomException: 未知异常：引发类型为“System.Web.HttpUnhandledException”的异常。]
+</Trace>
+    <OccuredTime>2010-12-07 10:49:26</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>0d7c8f0b-5159-4e7b-948b-c3c0a7e4be63</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/Member/goodfriends.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：文件“/Change_Goods/Member/UC/PageControl.ascx”不存在。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：文件“/Change_Goods/Member/UC/PageControl.ascx”不存在。]
+
+[CustomException.CustomException: 未知异常：文件“/Change_Goods/Member/UC/PageControl.ascx”不存在。]
+
+[CustomException.CustomException: 未知异常：文件“/Change_Goods/Member/UC/PageControl.ascx”不存在。]
+</Trace>
+    <OccuredTime>2010-12-07 13:52:28</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>84a438ab-7f1e-440b-9dc4-18e5eb33912d</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/Member/goodsadd.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：索引超出了数组界限。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+
+[CustomException.CustomException: 未知异常：索引超出了数组界限。]
+</Trace>
+    <OccuredTime>2010-12-07 14:01:08</OccuredTime>
+  </Exception>
+</Exceptions>

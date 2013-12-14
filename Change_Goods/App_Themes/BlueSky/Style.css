@@ -1,0 +1,13 @@
+﻿body {
+}
+  .button
+{
+    color: #fff;
+    height: 20px;
+    border: 1px solid #1E5B9A;
+    background-color:#87BAEF;
+    background-image:url(image/1.gif);
+    padding: 3px 1px 1px 1px;
+    cursor: hand;
+    font-size: 12px;
+}

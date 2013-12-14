@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>7660eed7-35d7-4eb2-95dd-997b9493e607</GuidNo>
+    <CurrentUserInfo>http://localhost:2419/Change_Goods/showdetail.aspx?id=613</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：列名 'WangWang' 无效。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：列名 'WangWang' 无效。]
+
+[CustomException.CustomException: 未知异常：列名 'WangWang' 无效。]
+</Trace>
+    <OccuredTime>2011-03-16 10:51:04</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>447cd57b-774e-4b9c-87bd-7a9b876e9124</GuidNo>
+    <CurrentUserInfo>http://localhost:2419/Change_Goods/showdetail.aspx?id=613</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：列名 'WangWang' 无效。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：列名 'WangWang' 无效。]
+
+[CustomException.CustomException: 未知异常：列名 'WangWang' 无效。]
+</Trace>
+    <OccuredTime>2011-03-16 11:05:01</OccuredTime>
+  </Exception>
+</Exceptions>

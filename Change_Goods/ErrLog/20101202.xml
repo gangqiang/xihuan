@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>c917568f-7101-4980-970a-0af6f1842420</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/searchlist.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：列名 'IsChecked' 无效。
+列名 'OnlyCityChange' 无效。
+列名 'OnlySchoolChange' 无效。
+列名 'IsChecked' 无效。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：列名 'IsChecked' 无效。
+列名 'OnlyCityChange' 无效。
+列名 'OnlySchoolChange' 无效。
+列名 'IsChecked' 无效。]
+
+[CustomException.CustomException: 未知异常：列名 'IsChecked' 无效。
+列名 'OnlyCityChange' 无效。
+列名 'OnlySchoolChange' 无效。
+列名 'IsChecked' 无效。]
+</Trace>
+    <OccuredTime>2010-12-02 14:15:34</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>b477e8f0-c323-457a-8236-3e3a3ccbeccc</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/searchlist.aspx?keyword</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:30:33</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>c4a902e7-fa25-4f22-bac8-8245260edd01</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/searchlist.aspx?keyword</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:34:52</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>d631c2c7-b788-4706-9f45-e25a03621dc6</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/xh.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+</Trace>
+    <OccuredTime>2010-12-02 14:40:59</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>52473e2e-8688-4dfe-b572-5eed133594ac</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/xh.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:43:00</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>5bb460ad-feca-44c6-b8ae-79583953cdee</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/xh.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:43:03</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>2de6a028-62f0-40a6-969b-1ea957ecc748</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/xh.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:44:52</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>ad93fb30-374a-4874-8336-68549f08acee</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/xh.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：未将对象引用设置到对象的实例。</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+
+[CustomException.CustomException: 未知异常：未将对象引用设置到对象的实例。]
+</Trace>
+    <OccuredTime>2010-12-02 14:45:44</OccuredTime>
+  </Exception>
+</Exceptions>

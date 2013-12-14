@@ -1,0 +1,13 @@
+D:\Change_Goods\PersistenceLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Change_Goods\PersistenceLayer\bin\Debug\PersistenceLayer.pdb
+D:\Change_Goods\PersistenceLayer\bin\Debug\MySql.Data.dll
+D:\Change_Goods\PersistenceLayer\bin\Debug\Oracle.DataAccess.dll
+D:\Change_Goods\PersistenceLayer\obj\Debug\PersistenceLayer.dll
+D:\Change_Goods\PersistenceLayer\obj\Debug\PersistenceLayer.pdb
+F:\Change_Goods\PersistenceLayer\bin\Debug\PersistenceLayer.dll
+F:\Change_Goods\PersistenceLayer\bin\Debug\PersistenceLayer.pdb
+F:\Change_Goods\PersistenceLayer\bin\Debug\MySql.Data.dll
+F:\Change_Goods\PersistenceLayer\bin\Debug\Oracle.DataAccess.dll
+F:\Change_Goods\PersistenceLayer\obj\Debug\ResolveAssemblyReference.cache
+F:\Change_Goods\PersistenceLayer\obj\Debug\PersistenceLayer.dll
+F:\Change_Goods\PersistenceLayer\obj\Debug\PersistenceLayer.pdb

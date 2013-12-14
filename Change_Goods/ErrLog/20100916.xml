@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Exceptions>
+  <Exception>
+    <GuidNo>e528c240-6def-4723-951c-79909165c178</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx?path=membercenter.aspx?action=goodsadd.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+</Trace>
+    <OccuredTime>2010-09-16 13:44:49</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>3f542a2d-7e95-4aea-aea2-04a4fb8d504c</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx?path=membercenter.aspx?action=goodsadd.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+</Trace>
+    <OccuredTime>2010-09-16 13:44:49</OccuredTime>
+  </Exception>
+  <Exception>
+    <GuidNo>fc67834c-016c-4215-9db2-5ff1dbe9ad4b</GuidNo>
+    <CurrentUserInfo>http://localhost:1262/Change_Goods/login.aspx?path=membercenter.aspx?action=goodsadd.aspx</CurrentUserInfo>
+    <Code>Unknown</Code>
+    <Message>未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+</Message>
+    <Trace>
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+
+[CustomException.CustomException: 未知异常：XiHuan_UserInfoEntity对象操作出错！参考：数据库操作异常:Index #0
+Message: 列名 'WangWang' 无效。
+Native: 207
+Source: .Net SqlClient Data Provider
+]
+</Trace>
+    <OccuredTime>2010-09-16 13:44:58</OccuredTime>
+  </Exception>
+</Exceptions>

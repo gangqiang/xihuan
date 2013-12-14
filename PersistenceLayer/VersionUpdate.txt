@@ -1,0 +1,339 @@
+修改记录:
+1.为事务添加SQL方式
+RE:多数据库的SQL事务操作测试通过.
+使用:
+Transaction t=new Transaction();
+t.AddSqlString(sqlstirng,databasename);
+...
+t.Process();
+2.修改自动增长类型只能为Int的Bug.目前支持Int或是Decimal的自动增长类型
+3.实现SQL与Access数据库的Top功能．使用：
+RetrieveCriteria rc=new RetrieveCriteria(ObjectEntity);
+rc.Top=10;
+rc......
+rc.AsTable();
+即可以取出头N条记录；
+Oracle的头N条记录功能未实现.
+
+4.更改了并主键的自动增长列进行update时的错误
+目前在生成update语句时，对于主键和自动增长列都不会进行update了．
+
+5.增加了字段与字段的比较(Condition)
+原版本只支持condition添加对常数值进行比较．目前添加了字段与字段的比较：
+eg:
+
+RetrieveCriteria rc=new RetrieveCriteria(typeof(Entity));
+Condition c=rc.GetNewCondition();
+//比较两字段是否相等
+c.AddEqualToField(Entity.NAME,Entity.ID);
+
+//比较第一个字段是否大于第二个字段
+c.AddGreaterThanField(Entity.NAME,Entity.ID);
+
+//比较第一个字段是否大于等于第二个字段
+c.AddGreaterThanOrEqualToField(Entity.NAME,Entity.ID);
+//比较第一个字段是否小于第二个字段
+c.AddLessThanField(Entity.NAME,Entity.ID);
+
+//比较第一个字段是否小于等于第二个字段
+c.AddLessThanOrEqualToField(Entity.NAME,Entity.ID);
+
+6.为了方便生成类似于A and B and ( C or D)这样的语句
+系统添加了一个OrGroup的类,在此实例中添加查询条件，这些查询条件之间以OR的方式进行组合，
+然后Condition中Add这个OrGourp就可以生成上面的语句了，例：
+RetrieveCriteria rc=new RetrieveCriteria(StudentEntity));
+Condition c=rc.GetNewCoindition();
+c.AddEqualTo(StudentEntity.Name,"liu"); 此条件比作A 
+OrGroup orgroup=c.GetNewOrGroup();
+orgroup.AddEqualTo(StudentEntity.Name,"l"); 此条件比作B 
+orgroup.AddEqualTo(StudentEntity.ID,"11"); 此条件比作C
+
+则以上就会生成 A and (B or C)的语句。 
+
+
+7.实体对象的数据源公开，使用Entity.Database属性可以指定实体要操作的数据库源
+也可以使用ObjectCursor转换过来的实体，在RetrieveCriteria时覆盖了构造函数：
+RetrieveCriteria rc=new RetrieveCriteria(Type,"DB-Name");
+或使用rc.Database=DB-Name,进行赋值。
+8.RetrieveCriteria实现了AsEntity的方法，此方法方便于那些非关键字，但能查询出唯一的情况，能快速转换为实体
+RetrieveCriteria rc=new RetrieveCriteria(typeof(StudentEntity));
+Condition add here.....
+StudentEntity se=rc.AsEntity(); //默认取第一条记录进行实体化
+se.....
+
+9.公开了数据源连接，可以使用Setting.Instance().AppendDatabase(name,Type,connectiong)进行追加数据源
+只要追加一次就可以了。name不能重复，如果name已经存在，则不会覆盖原连接
+10.关于实体的时间戳问题，现在放弃，由于同一种类型的实体会存在很多条数据，要是保存到内存，内存开销太大
+此方案被取消，至于实体的及时更新，可以采用保存前先Retrieve一下就可以了。
+11.DeleteCriteria得到完善：
+DeleteCriteria dc=new DeleteCriteria(typeof(StudentEntity),"PL2");
+dc.GetNewCondition().AddMatch(StudentEntity.NAME,"name");
+dc.Perform();
+
+事务处理测试也通过了。
+
+12.UpdateCriteria得到完善
+UpdateCriteria uc=new UpdateCriteria(typeof(StudentEntity),"PL2");
+uc.AddAttributeForUpdate(StudentEntity.NAME,"bbb");
+uc.GetNewCondition().AddGreaterThan(StudentEntity.ID,"1");
+uc.Perform();
+事务处理测试也通过了。
+13.增加了EntityContainer的容器类，将实体保存在容器中。可以使用遍历的方式进行强类型转换后使用
+14.实现内存存储功能：
+  内存存储主要是为了避免那些基础数据的返回读取，频繁的访问数据库会导致性能下降，所以对于基础数据，可以在XML文件里，定义为：IsSaveToMemory="true"
+  这样，在对这个实体进行操作时，会自动保存到内存中。RetrieveCriteria及Entity.Retrieve会自动从内存中获取，Entity.Save,Entity.Delete会自动更新内存。
+  为此，如果使用SQL语句进行内存更新。那么要使用实体的Retrieve进行一次获取，才能保证内存数据的最新。
+  此功能的事务处理测试通过
+  
+15.实体-表映射XML不区分类型大小写，并把VarChar改为String，但同时也兼容以前的VarChar
+16修改了New 实体时就读取XML的问题，现在对于New实体时，不会进行数据访问，所以方便进行序列化
+17支持TimeStamp功能，只要在XML文件中声明是timestamp="true"就可以了，在新增与更新时会自动生成新的时间戳值
+
+以上为2.0.1.2功能
+
+2.0.1.8以后添加功能
+1.支持ODP数据库连接
+2.对于Oracle数据库连接，如果是日期字段将自动添加to_date('','yyyy-mm-dd hr24:mi:ss')的日期转换，这样日期的查询条件正确
+当然，如果是要相等某一天，那么建议使用大于等于当前天的00:00:00并小于明天的00:00:00。这样的比较方式最具科学性。
+
+2.0.1.10
+修订了删除具有双主键记录时的报错
+2.0.1.11
+修订对数字列进行AddMatch或AddMatchPrefix时的报错，现在如果对数字型字段进行AddMatch也可以了！
+
+2.0.1.12
+添加了Query的Top功能，目前Query的TOP功能与RetrieveCriteria一样，只是生成"Select Top n"所以对Oracle不适用
+Condition 添加了AddNotMatch,AddNotMatchPrefix,AddNotIn操作
+Condition 添加了AddMatchSuffix后缀匹配与AddNotMatchSuffix后缀不匹配
+
+手动配置数据库连接，并手动装载ClassMap,可以实现数据库连接与ClassMap装载分开设置
+增加Odbc连接类型
+
+
+对于存储过程，添加了执行过期控制:
+Query.RunProcedure(string storeProcName,IDataParameter[] ps,string dbName,int commandTimeout)
+Query.RunProcedure(string storeProcName,IDataParameter[] param,out int affected,string dbName,int commandTimeout)
+
+
+3.0.0.1功能：
+对Informix数据库的支持，新增了Informix的数据类，在继承后，要对两个m_QuotationMarksStart = "";
+m_QuotationMarksEnd = "";覆盖原默认值即可。
+那么在连接Informix时，使用datatype="Informix"
+
+3.0.0.2
+添加了RetrieveCriteria 的指定显示字段功能：
+RetrieveCriteria rc=new RetrieveCriteria(typeof(StudentEntity));
+rc.AddSelect(StudentEntity.__NAME);
+rc.AsDataTable();
+使用AddSelect(string entityAttributeName)或AddSelect(string entityAttributeName,string AliasName)就可以指定要显示的字段值了。
+一旦使用一个或一个以上，就会按指定的显示，如果一个也不指定，默认会显示出所有字段！
+
+增加了Oracle的“TOP”功能，它将生成rownum<=N的语句获取前N条记录(RetrieveCriteria 和Query都加上了)
+
+
+
+3.0.0.4
+实现了时间戳功能，只要定义一列为timestamp="true",数据类型为String，如：
+ <attribute name="ts" column="ts" type="String" timestamp="true"/>
+ 在对应的数据库也定义相应的字段，类型也为字符型，长度为20以上且不允许为空。
+ 这样，在EntityObject进行Insert时会由SPL生成一个Now.Ticks自动插入到此字段作为时间戳
+ 在Update时会进行时间戳的比较，如果正确才会更新进去，如果不正确则不会更新成功，这只需要返回"影响条数"来判断即可。
+ 在Delete时也会进行时间戳的判断，成功与不成功也通过"影响条数"来判断。
+ 因为在Update与Delete时，就算不成功，数据库也不会抛出异常，只是影响条数为0，所以我们通过影响条数来进行判断即可。
+
+在UpdateCriteria时也进行了时间戳值的更新，但问题是对于批量更新，无法进行每一条的时间戳比较。
+
+3.0.0.5
+
+事务中也加入了timestamp的支持：
+ 在Transaction中添中了IsForceCommit属性：
+	flase:不强行Commit，是指在实体Save()或是实体Delete()时，返回false就回滚整个事务,这用于并发性处理
+	true:强行Commit,是指忽略实体Save()与Delete()返回的false状态，因为有时这在业务上本身就是允许的。
+此默认值为false，也就是要求进行并发控制的，也可以手动设置为true，强行进行Commit
+我们可以通过Transaction t=new Transaction();
+ t.Add.....
+ bool result=t.Process();
+ 判断result来判断是否执行成功了，如果为false，则说在事务处理中遇到了并发错误，可以进行提醒重新提交
+ 而且在事务中也进行了保存到内存的控制，在事务的并发生成错误时，那些相内的保存到内存的数据将被清空，
+ 这样可以确保内存不会出现已经被Roolback的数据。
+
+
+3.0.0.6
+对TinyInt的支持
+ TinyInt的字段类型，在ClassMap中，映射为TinyInt;在实体类中对应数型为System.Byte，目前对此类型已经支持。
+ 
+ 3.0.0.7
+ 添加了对实体的Clone功能，要把实体类标识为可序列化：如：
+ [Serializable]
+ public class SuppliersEntity : EntityObject
+ {
+	.....
+ }
+ 然后使用实体对象的DeepClone()方法就可以了：
+ SuppliersEntity supplier2=(SuppliersEntity)supplier.DeepClone();
+ 
+  3.0.0.8
+  
+ 修复了在：classMap.xml中定义increment="false"后，仍然读取为true的错误。
+ 
+
+ 
+ 对UpdateCriteria 的 AddAttributeForUpdate方法进行了加强，原先只能进行string字段的更新：
+ public void AddAttributeForUpdate (string attributeName,string attributeValue)
+ 现在允许进行强类型更新：
+ public void AddAttributeForUpdate (string attributeName,object attributeValue)
+
+3.0.0.9
+
+添加了对Query的DatabaseName支持，这样，Query也可以支持多帐套查询了
+Query添加了int ProcessSqlNonQuery("sql","db")的方法用于执行不返回DataTable的SQL语句
+
+
+
+3.1.0.2
+彻底防止了数据库保留字的问题，对于Access与Sql Server都会采用"["、"]"号作为定界符
+对于Oracle采用"""、"""作为定界符
+
+3.1.0.3
+修正了RetrieveCriteria 在AddSelect()提取部分属性情况下，使用AsEntityContainer时出错的情况
+处理：在使用AddSelect()的AsEntityContainer时，对象只具有AddSelect()指定的值，其他值都为Null
+
+3.1.0.4
+初步实现Transaction的实时执行，测试也基本上全部完成。
+关于事务更新的描述：
+  原来的事务处理全部保留：
+	Transaction t=new Transaction();
+	t.AddSaveObject(obj);
+	....
+	t.process();
+  但这种事务处理遇到的问题是：如果前事务与后事务之间存在关系时，t.process()就无法进行处理。
+  为此事务中添加了全套新的处理机制：在事务操作添加时立即进行执行，
+  在最后要使用Commit或是RollBack进行手动的事务提交或回滚。
+  新事务处理机制可以解决：
+  1.主档主键自动生成，明细无法获取当前值的问题
+  2.库存在事务中不断累加的问题
+  新方法全部采用Do开头，例子如下：
+	Transaction t=new Transaction();
+	t.DoDeleteCriteria(dc) //执行删除标准DeleteCriteria
+	t.Do....
+	t.Commit();            //提交或者t.RollBack()回滚
+	
+ 详细参考：
+   public void DoDeleteCriteria(DeleteCriteria delete)  //执行删除标准
+   public void DoDeleteCriteria(DeleteCriteria delete,bool isForceCommit) //指定是否强制执行删除标准
+   对于isForceCommit是否强制执行，默认值为Transaction.IsForceCommit值false：
+       true:强制执行，即就算遇到更新为零的操作，也不会抛出异常
+	   flase:非强制执行，如果遇到更新为零，则抛出异常PLException，类型为DirthEntity，表示存在并发错误
+   public void DoDeleteObject(EntityObject obj)  //执行实体删除
+   public void DoDeleteObject(EntityObject obj,bool isForceCommit) //执行实体删除（isForceCommit同前）
+   public void DoSaveObject(EntityObject obj) //执行实体保存
+   public void DoSaveObject(EntityObject obj,bool isForceCommit) //执行实体保存（isForceCommit同前）
+   public void DoUpdateCriteria(UpdateCriteria update) //执行更新标准
+   public void DoUpdateCriteria(UpdateCriteria update,bool isForceCommit) //执行更新标准（isForceCommit同前）
+   public void DoSqlNonQueryString(string strSql,string dbName) //执行指定SQL语句
+   public void DoSqlNonQueryString(string strSql,string dbName,bool isForceCommit) //同上(isForceCommit同前)
+   public DataTable DoRetrieveCriteria(RetrieveCriteria retrieve) //执行获取标准，返加DataTable
+   public void DoRetrieveObject(EntityObject obj) //执行对象获取，对象会自动被赋上值
+   public DataTable DoSqlQueryString(string strSql,string dbName) //执行查询SQL，返回DataTable
+   
+   
+    
+   
+    
+  
+3.1.0.5
+ 修订了Condition里的Field比较报错。
+ 
+3.1.0.6
+ 修订了Bool型字段不能进行条件查询的报错
+ 现在可以使用c.AddEqualTo(aEntity.isBoy,false);这会最终生成 isBoy='0'的条件。
+ 
+3.1.0.8
+ 添加了DatabaseVendor的枚举类，现在可以通过在程序中判断数据源的提供者类型，来手动组装SQL语句。
+ 如Access的日期比较与Sql Server的不一致:一个采用#号，一个采用'号
+ if(Setting.Instance().GetDatabaseVendor(dbName)==DatabaseVendor.MsAccess)
+{
+	builder.Append(" and SpecialPriceD2.FromDate<=#"+itemDate.Day.ToString()+"-"+itemDate.Month.ToString()+"-"+itemDate.Year.ToString()+"#");
+	builder.Append(" and SpecialPriceD2.ToDate>=#"+itemDate.Day.ToString()+"-"+itemDate.Month.ToString()+"-"+itemDate.Year.ToString()+"#");
+}
+
+if(Setting.Instance().GetDatabaseVendor(dbName)==DatabaseVendor.MsSqlServer)
+{
+	builder.Append(" and SpecialPriceD2.FromDate<='"+itemDate.Day.ToString()+"-"+itemDate.Month.ToString()+"-"+itemDate.Year.ToString()+"'");
+	builder.Append(" and SpecialPriceD2.ToDate>='"+itemDate.Day.ToString()+"-"+itemDate.Month.ToString()+"-"+itemDate.Year.ToString()+"'");
+}
+
+
+
+3.1.0.9
+已经对所有的Criteria与Query进行了保留字处理。
+
+
+3.1.1.0
+支持了字段属性为Bit型的，对应生成的ClassMap映射为boolean,实体类中属性为bool型。
+在Condition里添加了对Null值的查询功能
+只针对AddEqualTo()和AddNotEqualTo()有效：
+c.AddEqualTo("字段名",System.DBNull.Value);
+c.AddNotEqualTo("字段名",System.DBNull.Value);
+
+3.2.0.0
+添加对MySql的.NET驱动
+MySql的参数形式搞定
+轻松实现MySql的TOP功能
+自动增长列是否可行。
+
+3.2.0.1
+对DateTime进行了Null值处理：
+如果要对DateTime类型的字段赋于Null值，只需要使用DateTime.MinValue即可：
+aEntity.CreateDate=DateTime.MinValue;
+
+3.2.0.2
+修订了UpdateCriteria对属性名与字段名不一致时导致的错误。
+原来在UpdateCriteira时没有对属性进行转化为字段名，导致在属性名与字段名不一致的情况下会找不到字段。
+
+3.2.0.3
+ODP.NET的DLL升级为10.2.0.100的了
+
+3.2.0.4
+添加了DataBaseType的类型MySql.(当时发布时忘了)
+
+3.2.0.5
+在Setting.Instance().AppendDatabase()时不再进行原数据源名称过滤，如果数据源已存在，也会进行覆盖
+
+3.2.0.6
+修正了SaveToMemory时，进行Query时的错误，因为需要替换掉"["+表名+"]"的方式。
+
+3.2.0.7
+修正了Transaction在Rollback时的“无可用事务”报错
+
+3.2.0.8
+添加了RC的AsDataTable(pageSize,page,out counts)的功能：
+此功能可以自动进行分页数据过滤，只要传入每页多少条pageSize、当前页码page、返回总共多少条数据（此总条数是为了方便进行页码显示）
+注：此功能只测试SQL SERVER，其他数据库有待测试
+对于有TOP分页功能的不适用此方法！
+
+3.2.0.9
+在Query中添加了DataSet ProcessMultiSql(Sql,db)的方法，返回的是DataSet，在这个Sql语句中可以返回多个DataTable
+
+3.2.1.0
+Query中添加Parameter参数方式提交Sql语句，此方式可以避免注入式攻击，推荐使用SQL时采用此方式传参
+public static DataTable ProcessSql(string sql, IDataParameter[] param, string dbName)
+如：string sql = "select top 100 * from Line_TCPF_Line where memberid=@id";
+IDataParameter para = PersistenceLayer.Query.GetParameter("hotel");
+para.ParameterName = "@id";
+para.Value = 6632;
+IDataParameter[] paras = new IDataParameter[1];
+paras[0] = para;
+DataTable dt = PersistenceLayer.Query.ProcessSql(sql, paras, "hotel");
+
+
+待：
+需要对Nvarchar进行测试一下，因为在SQL中如果是nvarchar的字段，应该是采用N"xxxx"的方式的。
+需要添加Like "_ _ _"或"???"类似 的匹配字符数的情况，因为有时候一些Code是采用级长来控制的。
+需添加方法AddMathLength(Object,int)
+
+
+
+
+
+

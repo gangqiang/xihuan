@@ -1,0 +1,7 @@
+bin\Debug\PersistenceLayer.pdb
+bin\Debug\MySql.Data.dll
+bin\Debug\Oracle.DataAccess.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PersistenceLayer.dll
+obj\Debug\PersistenceLayer.pdb
+bin\Debug\PersistenceLayer.dll
