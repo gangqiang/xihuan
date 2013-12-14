@@ -12,7 +12,7 @@ public class BasePage : Page
     private string m_WebRootPath;
 
     public BasePage()
-    {
+    { 
 
     }
 
