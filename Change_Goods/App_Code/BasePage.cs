@@ -24,7 +24,7 @@ public class BasePage : Page
         get
         {
             HttpCookie XIHuan8 = HttpContext.Current.Request.Cookies["XIHuan8"];
-            return !(null == XIHuan8);
+            return !(null == XIHuan8); 
         }
     }
 
