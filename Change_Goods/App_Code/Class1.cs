@@ -10,8 +10,8 @@ public class Class1
 { 
 	public Class1()
 	{
-		//
+		//  
 		//TODO: 在此处添加构造函数逻辑
-		//
+		//sss
 	}
 }
