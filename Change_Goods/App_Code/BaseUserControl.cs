@@ -11,7 +11,7 @@ public class BaseUserControl : UserControl
     {
         //
         // TODO: 在此处添加构造函数逻辑
-        //
+        //ss
     }
 
     /// <summary>
